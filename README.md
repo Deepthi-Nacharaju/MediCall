@@ -23,3 +23,4 @@
 | Demo Video of Prototype                 | Data              | IMG_7550.MOV                                                                   | Objective 9, 10 |
 | List of System Components               | General           | Materials .xlsx                                                                |                 |
 | Patient Flow Chart                      | Problem Statement | Patient flow-chart.pdf                                                         |                 |
+|Updated Design Foundations Documentation| Cycle_Two| Updated Design Foundations Documentation. pdf
