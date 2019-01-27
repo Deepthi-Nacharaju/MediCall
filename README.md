@@ -7,7 +7,7 @@
 | Project Organization Strategies         | General           | ProjectOrganization.pdf                                                        |                 |
 | Old Design Foundations Document         | Cycle_One         | 10_11_18 Design Foundations Document (DFD).docx                                |                 |
 | Medical Device Development Worksheet    | Cycle_One         | HaerynLizDeepthi_Medical Device Development Worksheet 2018.xlsx                |                 |
-| Updated Design Foundation Document      | Cycle_Two         |                                                                                |                 |
+| Updated Design Foundation Document      | Cycle_Two         | Updated Design Foundations Document (DFD).pdf                                                               |                 |
 | Updated Spec Sheet PDF                  | Cycle_Two         | HOQ and Specs.pdf                                                              |                 |
 | Cycle 2 Presentation                    | Presentations     | Final_Presentation.pptx                                                        |                 |
 | Functional Decompositions               | Cycle_Two         | FunctionalDecomposition.pdf                                                    | Objective 1     |
@@ -23,3 +23,4 @@
 | Demo Video of Prototype                 | Data              | IMG_7550.MOV                                                                   | Objective 9, 10 |
 | List of System Components               | General           | Materials .xlsx                                                                |                 |
 | Patient Flow Chart                      | Problem Statement | Patient flow-chart.pdf                                                         |                 |
+|Updated Design Foundations Documentation| Cycle_Two| Updated Design Foundations Documentation. pdf
