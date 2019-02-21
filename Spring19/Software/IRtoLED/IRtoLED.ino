@@ -7,6 +7,7 @@ int LED2 = 4;
 int LED3 = 5;
 int LED4 = 6;
 int LED5 = 7;
+int signalPin = 2
 
 uint16_t pulses[100][2];
 uint8_t currentpulse = 0;
@@ -19,6 +20,7 @@ void setup() {
   Serial.println("Ready to detect!");
   pinMode(LED1, OUTPUT);
   pinMode(LED2, OUTPUT);
+  pinMode(signalPin, INPUT);
 }
 
 void loop(void) {
