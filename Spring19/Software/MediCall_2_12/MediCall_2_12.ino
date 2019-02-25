@@ -12,17 +12,9 @@ Adafruit_DRV2605 drv;
 #ifdef __AVR__
 #include <avr/power.h>
 #endif
-#define PIN 6
+#define PIN 5
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(60, PIN, NEO_GRB + NEO_KHZ800);
-
-
-int LED1 = 30;
-int LED2 = 32;
-int LED3 = 34;
-int LED4 = 36;
-int LED5 = 38;
-int signalPin = 52;
 int counter = 1;
 unsigned long timer = 0;
 bool signal_switch = false;
@@ -34,13 +26,13 @@ bool LIGHTS = true;
 bool HAPTIC = false;
 bool SOUND = false;
 bool PROX = false;
-#define lights_pin 42
-#define haptic_pin 44
-#define sound_pin 46
-#define prox_pin 48
+#define lights_pin 6
+#define haptic_pin 7
+#define sound_pin 8
+#define prox_pin 9
 bool switch_status = 0;
 #define pot A0
-#define haptic_motor 2
+#define haptic_motor 3
 int value = 0;
 int effect = 19;
 // Pot step 0.01265 Seconds
@@ -50,12 +42,6 @@ uint32_t blue = strip.Color(0, 0, 255);
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(LED1, OUTPUT);
-  pinMode(LED2, OUTPUT);
-  pinMode(LED3, OUTPUT);
-  pinMode(LED4, OUTPUT);
-  pinMode(LED5, OUTPUT);
-  pinMode(signalPin, INPUT);
   pinMode(pot, INPUT);
   pinMode(lights_pin, INPUT);
   pinMode(haptic_pin, INPUT);
@@ -103,14 +89,14 @@ void loop() {
     }
     if (millis() - timer > call_delay) {
       if (HAPTIC) {
-        analogWrite(11, 255);
+        analogWrite(haptic_motor, 255);
       }
       if (LIGHTS) {
         blinkLights();
         blinkLights();
         blinkLights();
       }
-      analogWrite(11, 0);
+      analogWrite(haptic_motor, 0);
       signal_lost = 0;
       signal_switch = true;
       Serial.println("Call Placed");
@@ -209,9 +195,9 @@ void check_buttons() {
 
 void vibe() {
   if (HAPTIC) {
-    analogWrite(11, 75);
+    analogWrite(haptic_motor, 75);
     delay(50);
-    analogWrite(11, 0);
+    analogWrite(haptic_motor, 0);
   }
 }
 
