@@ -2955,6 +2955,167 @@ http://arduino.cc/en/Main/ArduinoBoardDuemilanove</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-samtec" urn="urn:adsk.eagle:library:184">
+<description>&lt;b&gt;Samtec Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SSW-101-02-G-D" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+Source: Samtec SSW.pdf</description>
+<wire x1="-1.399" y1="2.425" x2="1.399" y2="2.425" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="2.425" x2="1.399" y2="-2.425" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="-2.425" x2="-1.399" y2="-2.425" width="0.2032" layer="21"/>
+<wire x1="-1.399" y1="-2.425" x2="-1.399" y2="2.425" width="0.2032" layer="21"/>
+<wire x1="-0.745" y1="-0.515" x2="0.755" y2="-0.515" width="0.2032" layer="51"/>
+<wire x1="0.755" y1="-0.515" x2="0.755" y2="-2.015" width="0.2032" layer="51"/>
+<wire x1="0.755" y1="-2.015" x2="-0.745" y2="-2.015" width="0.2032" layer="51"/>
+<wire x1="-0.745" y1="-2.015" x2="-0.745" y2="-0.515" width="0.2032" layer="51"/>
+<wire x1="-0.745" y1="2.025" x2="0.755" y2="2.025" width="0.2032" layer="51"/>
+<wire x1="0.755" y1="2.025" x2="0.755" y2="0.525" width="0.2032" layer="51"/>
+<wire x1="0.755" y1="0.525" x2="-0.745" y2="0.525" width="0.2032" layer="51"/>
+<wire x1="-0.745" y1="0.525" x2="-0.745" y2="2.025" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="-1.27" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="2" x="0" y="1.27" drill="1" diameter="1.5" shape="octagon"/>
+<text x="-0.508" y="-4.318" size="1.6764" layer="21" font="vector">1</text>
+<text x="-0.508" y="2.794" size="1.6764" layer="21" font="vector">2</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="SSW-101-02-G-D-RA" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+Source: Samtec SSW.pdf</description>
+<wire x1="-1.399" y1="-8.396" x2="1.399" y2="-8.396" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="-8.396" x2="1.399" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="-0.106" x2="-1.399" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="-1.399" y1="-0.106" x2="-1.399" y2="-8.396" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="1.524" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="2" x="0" y="4.064" drill="1" diameter="1.5" shape="octagon"/>
+<text x="-0.595" y="-7.65" size="1.6764" layer="21" font="vector">1</text>
+<text x="-0.67" y="-2.2" size="1.6764" layer="21" font="vector">2</text>
+<text x="-1.905" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="0" x2="0.254" y2="4.318" layer="51"/>
+</package>
+<package name="SSW-101-02-G-Q" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+Source: Samtec SSW.pdf</description>
+<wire x1="-1.399" y1="3.695" x2="1.399" y2="3.695" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="3.695" x2="1.399" y2="-3.695" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="-3.695" x2="-1.399" y2="-3.695" width="0.2032" layer="21"/>
+<wire x1="-1.399" y1="-3.695" x2="-1.399" y2="3.695" width="0.2032" layer="21"/>
+<wire x1="-0.745" y1="-1.785" x2="0.755" y2="-1.785" width="0.2032" layer="51"/>
+<wire x1="0.755" y1="-1.785" x2="0.755" y2="-3.285" width="0.2032" layer="51"/>
+<wire x1="0.755" y1="-3.285" x2="-0.745" y2="-3.285" width="0.2032" layer="51"/>
+<wire x1="-0.745" y1="-3.285" x2="-0.745" y2="-1.785" width="0.2032" layer="51"/>
+<wire x1="-0.745" y1="3.295" x2="0.755" y2="3.295" width="0.2032" layer="51"/>
+<wire x1="0.755" y1="3.295" x2="0.755" y2="1.795" width="0.2032" layer="51"/>
+<wire x1="0.755" y1="1.795" x2="-0.745" y2="1.795" width="0.2032" layer="51"/>
+<wire x1="-0.745" y1="1.795" x2="-0.745" y2="3.295" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="-2.54" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="2" x="0" y="2.54" drill="1" diameter="1.5" shape="octagon"/>
+<text x="-0.508" y="-5.588" size="1.6764" layer="21" font="vector">1</text>
+<text x="-0.508" y="4.064" size="1.6764" layer="21" font="vector">2</text>
+<text x="-1.905" y="-3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="SSW-101-02-G-Q-RA" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+Source: Samtec SSW.pdf</description>
+<wire x1="-1.399" y1="-8.396" x2="1.399" y2="-8.396" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="-8.396" x2="1.399" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="-0.106" x2="-1.399" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="-1.399" y1="-0.106" x2="-1.399" y2="-8.396" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="1.524" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="2" x="0" y="6.604" drill="1" diameter="1.5" shape="octagon"/>
+<text x="-0.595" y="-7.65" size="1.6764" layer="21" font="vector">1</text>
+<text x="-0.67" y="-2.2" size="1.6764" layer="21" font="vector">2</text>
+<text x="-1.905" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="0" x2="0.254" y2="6.858" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FPINV" library_version="2">
+<wire x1="-1.778" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.508" x2="-1.778" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.048" y="0.762" size="1.524" layer="95" rot="R180">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="FPIN" library_version="2">
+<wire x1="-1.778" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.508" x2="-1.778" y2="-0.508" width="0.254" layer="94"/>
+<text x="-3.048" y="0.762" size="1.524" layer="95" rot="R180">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SSW-101-02-G" prefix="X" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+Source: Samtec SSW.pdf</description>
+<gates>
+<gate name="-1" symbol="FPINV" x="-10.16" y="0" addlevel="always"/>
+<gate name="-2" symbol="FPIN" x="10.16" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="-D" package="SSW-101-02-G-D">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="SSW-101-02-G-D" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="82P1456" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-D-RA" package="SSW-101-02-G-D-RA">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="SSW-101-02-G-D-RA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="82P1457" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-Q" package="SSW-101-02-G-Q">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="SSW-101-02-G-Q" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-Q-RA" package="SSW-101-02-G-Q-RA">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="SSW-101-02-G-Q-RA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2999,6 +3160,7 @@ http://arduino.cc/en/Main/ArduinoBoardDuemilanove</description>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="X1" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="SSW-101-02-G" device="-D"/>
 </parts>
 <sheets>
 <sheet>
@@ -3117,6 +3279,13 @@ http://arduino.cc/en/Main/ArduinoBoardDuemilanove</description>
 </instance>
 <instance part="GND10" gate="1" x="157.48" y="-68.58" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="160.02" y="-71.12" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="X1" gate="-1" x="215.9" y="-58.42" smashed="yes">
+<attribute name="VALUE" x="213.36" y="-55.88" size="1.778" layer="96"/>
+<attribute name="NAME" x="212.852" y="-57.658" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X1" gate="-2" x="236.22" y="-58.42" smashed="yes">
+<attribute name="NAME" x="233.172" y="-57.658" size="1.524" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -3349,6 +3518,22 @@ http://arduino.cc/en/Main/ArduinoBoardDuemilanove</description>
 <wire x1="134.62" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <junction x="157.48" y="-53.34"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="RELAYRIGHT" gate="1" pin="6"/>
+<wire x1="195.58" y1="-60.96" x2="218.44" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-1" pin="1"/>
+<wire x1="218.44" y1="-60.96" x2="218.44" y2="-58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="X1" gate="-2" pin="1"/>
+<wire x1="238.76" y1="-58.42" x2="238.76" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="RELAYRIGHT" gate="1" pin="2"/>
+<wire x1="238.76" y1="-71.12" x2="195.58" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

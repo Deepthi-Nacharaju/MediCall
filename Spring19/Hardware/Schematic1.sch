@@ -3116,6 +3116,25 @@ Source: Samtec SSW.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="relay">
+<packages>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+<deviceset name="RELAY">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3161,6 +3180,7 @@ Source: Samtec SSW.pdf</description>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X1" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="SSW-101-02-G" device="-D"/>
+<part name="U$1" library="relay" deviceset="RELAY" device=""/>
 </parts>
 <sheets>
 <sheet>
