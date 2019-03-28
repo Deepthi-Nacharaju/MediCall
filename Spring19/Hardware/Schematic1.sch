@@ -232,64 +232,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="LED_5MM" urn="urn:adsk.eagle:footprint:39305/1" library_version="1">
-<description>&lt;B&gt;LED 5mm PTH&lt;/B&gt;&lt;p&gt;
-5 mm, round
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 5mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED-IR-THRU&lt;/li&gt;</description>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="22"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="51"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="0" y="3.3909" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0.0254" y="-3.3909" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-</package>
-<package name="LED_3MM" urn="urn:adsk.eagle:footprint:39306/1" library_version="1">
-<description>&lt;h3&gt;LED 3MM PTH&lt;/h3&gt;
-
-3 mm, round.
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 3mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="22" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="22" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="22" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="22" curve="60.255215" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="22"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="22"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="21"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
 <package name="LED-1206" urn="urn:adsk.eagle:footprint:39304/1" library_version="1">
 <description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
 
@@ -330,138 +272,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
 <wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
 <wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
-</package>
-<package name="LED_10MM" urn="urn:adsk.eagle:footprint:39308/1" library_version="1">
-<description>&lt;B&gt;LED 10mm PTH&lt;/B&gt;&lt;p&gt;
-10 mm, round
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.2inch&lt;/li&gt;
-&lt;li&gt;Diameter: 10mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;</description>
-<wire x1="-5" y1="-2" x2="-5" y2="2" width="0.2032" layer="21" curve="316.862624"/>
-<wire x1="-5" y1="2" x2="-5" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-5" y1="2" x2="-5" y2="-2" width="0.2032" layer="22"/>
-<wire x1="-5" y1="2" x2="-5" y2="-2" width="0.2032" layer="51"/>
-<pad name="A" x="2.54" y="0" drill="2.4" diameter="3.7"/>
-<pad name="C" x="-2.54" y="0" drill="2.4" diameter="3.7"/>
-<text x="2.159" y="2.54" size="1.016" layer="51" ratio="15">L</text>
-<text x="-2.921" y="2.54" size="1.016" layer="51" ratio="15">S</text>
-<text x="0" y="5.715" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.715" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="FKIT-LED-1206" urn="urn:adsk.eagle:footprint:39309/1" library_version="1">
-<description>&lt;B&gt;LED 1206 SMT&lt;/B&gt;&lt;p&gt;
-1206, surface mount
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Area: 0.125"x 0.06" &lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;</description>
-<wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-0.55" y1="0.5" x2="-0.55" y2="-0.5" width="0.1016" layer="51" curve="84.547378"/>
-<wire x1="0.55" y1="-0.5" x2="0.55" y2="0.5" width="0.1016" layer="51" curve="84.547378"/>
-<wire x1="2.54" y1="0.9525" x2="2.54" y2="-0.9525" width="0.2032" layer="21"/>
-<wire x1="0.3175" y1="0.635" x2="0.3175" y2="0" width="0.2032" layer="51"/>
-<wire x1="0.3175" y1="0" x2="0.3175" y2="-0.635" width="0.2032" layer="51"/>
-<wire x1="0.3175" y1="0" x2="0" y2="0.3175" width="0.2032" layer="51"/>
-<wire x1="0.3175" y1="0" x2="0" y2="-0.3175" width="0.2032" layer="51"/>
-<smd name="A" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd name="C" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="0" y="1.11125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.11125" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="0.45" y1="-0.7" x2="0.8" y2="-0.45" layer="51"/>
-<rectangle x1="0.8" y1="-0.7" x2="0.9" y2="0.5" layer="51"/>
-<rectangle x1="0.8" y1="0.55" x2="0.9" y2="0.7" layer="51"/>
-<rectangle x1="-0.9" y1="-0.7" x2="-0.8" y2="0.5" layer="51"/>
-<rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
-</package>
-<package name="LED_3MM-NS" urn="urn:adsk.eagle:footprint:39310/1" library_version="1">
-<description>&lt;h3&gt;LED 3MM PTH- No Silk&lt;/h3&gt;
-
-3 mm, round, no silk outline of package
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 3mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="51" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="51" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="51" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="51" curve="60.255215" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="51"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="51"/>
-<wire x1="1.8923" y1="1.2954" x2="1.8923" y2="0.7874" width="0.254" layer="21"/>
-<wire x1="1.8923" y1="-1.2954" x2="1.8923" y2="-0.8382" width="0.254" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128"/>
-<pad name="K" x="1.27" y="0" drill="0.8128"/>
-<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="LED_5MM-KIT" urn="urn:adsk.eagle:footprint:39311/1" library_version="1">
-<description>&lt;h3&gt;LED 5mm KIT PTH&lt;/h3&gt;
-&lt;p&gt;
-&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 5mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example Device:
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="22"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="51"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
-<text x="0" y="3.3909" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0.0254" y="-3.3909" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="30">
-<vertex x="-1.2675" y="-0.9525" curve="-90"/>
-<vertex x="-2.2224" y="-0.0228" curve="-90.011749"/>
-<vertex x="-1.27" y="0.9526" curve="-90"/>
-<vertex x="-0.32" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-1.27" y="-0.4445" curve="-90.012891"/>
-<vertex x="-1.7145" y="-0.0203" curve="-90"/>
-<vertex x="-1.27" y="0.447" curve="-90"/>
-<vertex x="-0.8281" y="-0.0101" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="1.2725" y="-0.9525" curve="-90"/>
-<vertex x="0.3176" y="-0.0228" curve="-90.011749"/>
-<vertex x="1.27" y="0.9526" curve="-90"/>
-<vertex x="2.22" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="1.27" y="-0.4445" curve="-90.012891"/>
-<vertex x="0.8255" y="-0.0203" curve="-90"/>
-<vertex x="1.27" y="0.447" curve="-90"/>
-<vertex x="1.7119" y="-0.0101" curve="-90.012967"/>
-</polygon>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 </package>
 <package name="LED-1206-BOTTOM" urn="urn:adsk.eagle:footprint:39312/1" library_version="1">
 <description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
@@ -516,36 +326,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <packages3d>
-<package3d name="LED_5MM" urn="urn:adsk.eagle:package:39353/1" type="box" library_version="1">
-<description>LED 5mm PTH
-5 mm, round
-Specifications:
-Pin count: 2
-Pin pitch: 0.1inch
-Diameter: 5mm
-
-Example device(s):
-LED-IR-THRU</description>
-<packageinstances>
-<packageinstance name="LED_5MM"/>
-</packageinstances>
-</package3d>
-<package3d name="LED_3MM" urn="urn:adsk.eagle:package:39361/1" type="box" library_version="1">
-<description>LED 3MM PTH
-
-3 mm, round.
-
-Specifications:
-Pin count: 2
-Pin pitch: 0.1inch
-Diameter: 3mm
-
-Example device(s):
-LED</description>
-<packageinstances>
-<packageinstance name="LED_3MM"/>
-</packageinstances>
-</package3d>
 <package3d name="LED-1206" urn="urn:adsk.eagle:package:39352/1" type="box" library_version="1">
 <description>LED 1206 SMT
 
@@ -574,66 +354,6 @@ Example device(s):
 LED - BLUE</description>
 <packageinstances>
 <packageinstance name="LED-0603"/>
-</packageinstances>
-</package3d>
-<package3d name="LED_10MM" urn="urn:adsk.eagle:package:39351/1" type="box" library_version="1">
-<description>LED 10mm PTH
-10 mm, round
-Specifications:
-Pin count: 2
-Pin pitch: 0.2inch
-Diameter: 10mm
-
-Example device(s):
-LED</description>
-<packageinstances>
-<packageinstance name="LED_10MM"/>
-</packageinstances>
-</package3d>
-<package3d name="FKIT-LED-1206" urn="urn:adsk.eagle:package:39355/1" type="box" library_version="1">
-<description>LED 1206 SMT
-1206, surface mount
-Specifications:
-Pin count: 2
-Area: 0.125"x 0.06" 
-
-Example device(s):
-LED</description>
-<packageinstances>
-<packageinstance name="FKIT-LED-1206"/>
-</packageinstances>
-</package3d>
-<package3d name="LED_3MM-NS" urn="urn:adsk.eagle:package:39356/1" type="box" library_version="1">
-<description>LED 3MM PTH- No Silk
-
-3 mm, round, no silk outline of package
-
-Specifications:
-Pin count: 2
-Pin pitch: 0.1inch
-Diameter: 3mm
-
-Example device(s):
-LED</description>
-<packageinstances>
-<packageinstance name="LED_3MM-NS"/>
-</packageinstances>
-</package3d>
-<package3d name="LED_5MM-KIT" urn="urn:adsk.eagle:package:39357/1" type="box" library_version="1">
-<description>LED 5mm KIT PTH
-
-Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.
-
-Specifications:
-Pin count: 2
-Pin pitch: 0.1inch
-Diameter: 5mm
-
-Example Device:
-LED
-</description>
-<packageinstances>
-<packageinstance name="LED_5MM-KIT"/>
 </packageinstances>
 </package3d>
 <package3d name="LED-1206-BOTTOM" urn="urn:adsk.eagle:package:39358/1" type="box" library_version="1">
@@ -680,36 +400,54 @@ LED</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" urn="urn:adsk.eagle:component:39399/1" prefix="D" uservalue="yes" library_version="1">
-<description>&lt;b&gt;LED (Generic)&lt;/b&gt;
-&lt;p&gt;Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LEDs. Generic LEDs with no color specified.&lt;/p&gt;</description>
+<deviceset name="LED-GREEN" urn="urn:adsk.eagle:component:39390/1" prefix="D" uservalue="yes" library_version="1">
+<description>&lt;h3&gt;Green SMD LED&lt;/h3&gt;
+&lt;p&gt;Used in manufacturing of various products at SparkFun&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/9894312-LTST-C190GKT.aspx?CrossPart=HSMG-C190&amp;IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;LilyPad 1206&lt;/b&gt; - SMD1206 LilyPad package &lt;a href="http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=IN150NGHARVATEKCORPORATION2049943&amp;IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href=http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/8315665-LTST-C150KGKT.aspx?IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 1206 Bottom Mount&lt;/b&gt; -SMD 1206 Bottom Mount &lt;a href=http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-1-ND/386854"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/821”&gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;RedBoard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13720”&gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11076”&gt;Makey Makey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="5MM" package="LED_5MM">
+<device name="0603" package="LED-0603">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39353/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3MM" package="LED_3MM">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39361/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39354/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="DIO-08794" constant="no"/>
+<attribute name="PROD_ID" value="DIO-00821" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LILYPAD" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39352/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09910"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -722,67 +460,10 @@ LED</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:39352/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39354/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="10MM" package="LED_10MM">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39351/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-FKIT-1206" package="FKIT-LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39355/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-3MM-NO_SILK" package="LED_3MM-NS">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39356/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="5MM-KIT" package="LED_5MM-KIT">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39357/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-00862" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="1206-BOTTOM" package="LED-1206-BOTTOM">
@@ -794,7 +475,10 @@ LED</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:39358/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-11076" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2825,12 +2509,8 @@ Source: Samtec SSW.pdf</description>
 </classes>
 <parts>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1"/>
-<part name="LED2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1"/>
-<part name="LED1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
-<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -2857,8 +2537,13 @@ Source: Samtec SSW.pdf</description>
 <part name="X1" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="SSW-101-02-G" device="-D"/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
-<part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
+<part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="GREEN"/>
+<part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="GREEN"/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2868,18 +2553,6 @@ Source: Samtec SSW.pdf</description>
 <instance part="GND1" gate="1" x="162.56" y="-48.26" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="165.1" y="-50.8" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED3" gate="G$1" x="177.8" y="-40.64" smashed="yes" rot="MR90">
-<attribute name="NAME" x="173.228" y="-44.069" size="1.778" layer="95" font="vector" rot="MR180"/>
-<attribute name="VALUE" x="173.228" y="-38.735" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
-</instance>
-<instance part="LED2" gate="G$1" x="177.8" y="-27.94" smashed="yes" rot="MR90">
-<attribute name="NAME" x="173.228" y="-31.369" size="1.778" layer="95" font="vector" rot="MR180"/>
-<attribute name="VALUE" x="173.228" y="-26.035" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
-</instance>
-<instance part="LED1" gate="G$1" x="177.8" y="-15.24" smashed="yes" rot="MR90">
-<attribute name="NAME" x="173.228" y="-18.669" size="1.778" layer="95" font="vector" rot="MR180"/>
-<attribute name="VALUE" x="173.228" y="-13.335" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
-</instance>
 <instance part="R1" gate="G$1" x="167.64" y="-15.24" smashed="yes" rot="MR0">
 <attribute name="NAME" x="167.64" y="-13.716" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="167.64" y="-16.764" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
@@ -2887,10 +2560,6 @@ Source: Samtec SSW.pdf</description>
 <instance part="R2" gate="G$1" x="167.64" y="-27.94" smashed="yes" rot="MR0">
 <attribute name="NAME" x="167.64" y="-26.416" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="167.64" y="-29.464" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
-</instance>
-<instance part="R3" gate="G$1" x="167.64" y="-40.64" smashed="yes" rot="MR0">
-<attribute name="NAME" x="167.64" y="-39.116" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="167.64" y="-42.164" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
 <instance part="P+1" gate="VCC" x="218.44" y="-7.62" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="220.98" y="-10.16" size="1.778" layer="96" rot="MR90"/>
@@ -2975,47 +2644,44 @@ Source: Samtec SSW.pdf</description>
 <attribute name="VALUE" x="204.47" y="-10.16" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="204.47" y="-23.622" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="SV3" gate="G$1" x="200.66" y="-40.64" smashed="yes" rot="R180">
-<attribute name="VALUE" x="201.93" y="-33.02" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="201.93" y="-46.482" size="1.778" layer="95" rot="R180"/>
-</instance>
 <instance part="SV4" gate="1" x="243.84" y="27.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="245.11" y="38.1" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="245.11" y="22.098" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="D1" gate="G$1" x="177.8" y="-15.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="173.228" y="-11.811" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="173.228" y="-17.145" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="D2" gate="G$1" x="177.8" y="-27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="173.228" y="-24.511" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="173.228" y="-29.845" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="R3" gate="G$1" x="147.32" y="-20.32" smashed="yes" rot="MR90">
+<attribute name="NAME" x="148.844" y="-20.32" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="145.796" y="-20.32" size="1.778" layer="96" font="vector" rot="MR90" align="top-center"/>
+</instance>
+<instance part="GND6" gate="1" x="147.32" y="-30.48" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="149.86" y="-33.02" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="R6" gate="G$1" x="149.86" y="-7.62" smashed="yes" rot="MR0">
+<attribute name="NAME" x="149.86" y="-6.096" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="149.86" y="-9.144" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+</instance>
+<instance part="GND11" gate="1" x="160.02" y="-7.62" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="162.56" y="-5.08" size="1.778" layer="96" rot="MR270"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="-15.24" x2="162.56" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="-27.94" x2="162.56" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-27.94" x2="162.56" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <junction x="162.56" y="-27.94"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="162.56" y1="-40.64" x2="162.56" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="162.56" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -3046,44 +2712,62 @@ Source: Samtec SSW.pdf</description>
 <pinref part="IC1" gate="G$1" pin="GND@3"/>
 </segment>
 <segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="175.26" y1="-73.66" x2="170.18" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="RELAYLEFT" gate="1" pin="7"/>
-</segment>
-<segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="157.48" y1="-63.5" x2="157.48" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="147.32" y1="-25.4" x2="147.32" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="154.94" y1="-7.62" x2="157.48" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="170.18" y1="-73.66" x2="172.72" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-73.66" x2="172.72" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="RELAYLEFT" gate="1" pin="6"/>
+<wire x1="172.72" y1="-71.12" x2="175.26" y2="-71.12" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="185.42" y1="-27.94" x2="180.34" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="-27.94" x2="185.42" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="-22.86" x2="160.02" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-22.86" x2="160.02" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="-15.24" x2="139.7" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-15.24" x2="147.32" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-15.24" x2="139.7" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-15.24" x2="139.7" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="10"/>
 <wire x1="139.7" y1="-5.08" x2="129.54" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="-27.94" x2="205.74" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="185.42" y="-27.94"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<junction x="147.32" y="-15.24"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="182.88" y1="-15.24" x2="180.34" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="-15.24" x2="182.88" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="9"/>
 <wire x1="129.54" y1="-2.54" x2="144.78" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="-2.54" x2="144.78" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-2.54" x2="144.78" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-7.62" x2="144.78" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-12.7" x2="182.88" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="SV2" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="-15.24" x2="195.58" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="182.88" y="-15.24"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<junction x="144.78" y="-7.62"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -3095,11 +2779,7 @@ Source: Samtec SSW.pdf</description>
 <junction x="218.44" y="-17.78"/>
 <pinref part="SV1" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="-30.48" x2="218.44" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="-30.48" x2="218.44" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="SV3" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="-27.94" x2="218.44" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="-40.64" x2="218.44" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="-40.64" x2="218.44" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="-30.48" x2="218.44" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="165.1" y1="10.16" x2="157.48" y2="10.16" width="0.1524" layer="91"/>
@@ -3154,22 +2834,6 @@ Source: Samtec SSW.pdf</description>
 <wire x1="233.68" y1="30.48" x2="236.22" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="182.88" y1="-40.64" x2="180.34" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="-40.64" x2="182.88" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="-35.56" x2="154.94" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="-35.56" x2="154.94" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="11"/>
-<wire x1="129.54" y1="-7.62" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="-7.62" x2="137.16" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="-17.78" x2="154.94" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="SV3" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="-35.56" x2="182.88" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="-38.1" x2="193.04" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="NEOPIXEL" gate="G$1" pin="2"/>
@@ -3205,31 +2869,46 @@ Source: Samtec SSW.pdf</description>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="RELAYLEFT" gate="1" pin="1"/>
-<wire x1="175.26" y1="-58.42" x2="175.26" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="-53.34" x2="157.48" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="-53.34" x2="134.62" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-53.34" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="-53.34" x2="170.18" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="157.48" y="-53.34"/>
+<pinref part="RELAYLEFT" gate="1" pin="2"/>
+<wire x1="170.18" y1="-53.34" x2="170.18" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-60.96" x2="175.26" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="RELAYRIGHT" gate="1" pin="6"/>
-<wire x1="195.58" y1="-60.96" x2="218.44" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-1" pin="1"/>
 <wire x1="218.44" y1="-60.96" x2="218.44" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="RELAYRIGHT" gate="1" pin="7"/>
+<wire x1="195.58" y1="-58.42" x2="208.28" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-58.42" x2="208.28" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-60.96" x2="218.44" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="X1" gate="-2" pin="1"/>
-<wire x1="238.76" y1="-58.42" x2="238.76" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="RELAYRIGHT" gate="1" pin="2"/>
-<wire x1="238.76" y1="-71.12" x2="195.58" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-58.42" x2="238.76" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="RELAYRIGHT" gate="1" pin="1"/>
+<wire x1="195.58" y1="-73.66" x2="238.76" y2="-73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
