@@ -2231,6 +2231,15 @@ W = angled&lt;p&gt;
 <part name="NEOPIXEL" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="HAPTIC" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
+<attribute name="SPICEPREFIX" value="B"/>
+</part>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="POTENTIOMETER" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2324,6 +2333,30 @@ W = angled&lt;p&gt;
 <instance part="P+4" gate="VCC" x="154.94" y="10.16" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="157.48" y="12.7" size="1.778" layer="96" rot="MR0"/>
 </instance>
+<instance part="HAPTIC" gate="G$1" x="190.5" y="2.54" smashed="yes">
+<attribute name="NAME" x="184.15" y="8.255" size="1.778" layer="95"/>
+<attribute name="VALUE" x="184.15" y="-2.54" size="1.778" layer="96"/>
+</instance>
+<instance part="GND5" gate="1" x="180.34" y="2.54" smashed="yes" rot="R270">
+<attribute name="VALUE" x="177.8" y="5.08" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R4" gate="G$1" x="180.34" y="-5.08" smashed="yes" rot="MR0">
+<attribute name="NAME" x="180.34" y="-3.556" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="180.34" y="-6.604" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+</instance>
+<instance part="GND7" gate="1" x="193.04" y="-5.08" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="195.58" y="-2.54" size="1.778" layer="96" rot="MR270"/>
+</instance>
+<instance part="POTENTIOMETER" gate="G$1" x="175.26" y="38.1" smashed="yes" rot="R180">
+<attribute name="VALUE" x="176.53" y="45.72" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="171.45" y="32.258" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="GND8" gate="1" x="165.1" y="35.56" smashed="yes" rot="R270">
+<attribute name="VALUE" x="162.56" y="38.1" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="P+5" gate="VCC" x="160.02" y="40.64" smashed="yes" rot="R90">
+<attribute name="VALUE" x="162.56" y="38.1" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2380,6 +2413,20 @@ W = angled&lt;p&gt;
 <pinref part="NEOPIXEL" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="165.1" y1="5.08" x2="160.02" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="HAPTIC" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="2.54" x2="182.88" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="185.42" y1="-5.08" x2="190.5" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="POTENTIOMETER" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -2458,6 +2505,11 @@ W = angled&lt;p&gt;
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <pinref part="NEOPIXEL" gate="G$1" pin="3"/>
 </segment>
+<segment>
+<pinref part="P+5" gate="VCC" pin="VCC"/>
+<pinref part="POTENTIOMETER" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="40.64" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -2498,6 +2550,27 @@ W = angled&lt;p&gt;
 <wire x1="152.4" y1="0" x2="152.4" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="NEOPIXEL" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="7.62" x2="165.1" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="HAPTIC" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="5.08" x2="175.26" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="5.08" x2="175.26" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="ARDUINO_UNO" gate="G$1" pin="PD6(AIN0)"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="-2.54" x2="147.32" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-2.54" x2="175.26" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-2.54" x2="175.26" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="POTENTIOMETER" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="38.1" x2="154.94" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="38.1" x2="154.94" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="ARDUINO_UNO" gate="G$1" pin="PC0(ADC0)"/>
+<wire x1="154.94" y1="35.56" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

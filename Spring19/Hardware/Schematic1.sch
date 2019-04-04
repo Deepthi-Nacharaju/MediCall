@@ -2527,8 +2527,6 @@ Source: Samtec SSW.pdf</description>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="IC1" library="arduino" deviceset="ARDUINO2009_1" device="0"/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="RELAYRIGHT" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA07-1" device="" package3d_urn="urn:adsk.eagle:package:8341/1"/>
 <part name="RELAYLEFT" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA07-1" device="" package3d_urn="urn:adsk.eagle:package:8341/1"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2544,6 +2542,11 @@ Source: Samtec SSW.pdf</description>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="X2" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="SSW-101-02-G" device="-D"/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2605,12 +2608,6 @@ Source: Samtec SSW.pdf</description>
 <instance part="IC1" gate="G$1" x="111.76" y="5.08" smashed="yes">
 <attribute name="NAME" x="99.06" y="31.75" size="1.6764" layer="95"/>
 </instance>
-<instance part="GND3" gate="1" x="116.84" y="-27.94" smashed="yes">
-<attribute name="VALUE" x="114.3" y="-30.48" size="1.778" layer="96"/>
-</instance>
-<instance part="P+3" gate="VCC" x="106.68" y="38.1" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="109.22" y="35.56" size="1.778" layer="96" rot="MR90"/>
-</instance>
 <instance part="RELAYRIGHT" gate="1" x="187.96" y="-66.04" smashed="yes">
 <attribute name="VALUE" x="186.69" y="-78.74" size="1.778" layer="96"/>
 <attribute name="NAME" x="186.69" y="-55.118" size="1.778" layer="95"/>
@@ -2670,6 +2667,25 @@ Source: Samtec SSW.pdf</description>
 <instance part="GND11" gate="1" x="160.02" y="-7.62" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="162.56" y="-5.08" size="1.778" layer="96" rot="MR270"/>
 </instance>
+<instance part="X2" gate="-1" x="246.38" y="5.08" smashed="yes">
+<attribute name="VALUE" x="243.84" y="7.62" size="1.778" layer="96"/>
+<attribute name="NAME" x="243.332" y="5.842" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X2" gate="-2" x="266.7" y="5.08" smashed="yes">
+<attribute name="NAME" x="263.652" y="5.842" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="GND12" gate="1" x="271.78" y="5.08" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="274.32" y="7.62" size="1.778" layer="96" rot="MR270"/>
+</instance>
+<instance part="P+6" gate="VCC" x="243.84" y="0" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="246.38" y="-2.54" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="P+3" gate="VCC" x="104.14" y="35.56" smashed="yes" rot="R90">
+<attribute name="VALUE" x="106.68" y="33.02" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND3" gate="1" x="104.14" y="-25.4" smashed="yes" rot="R270">
+<attribute name="VALUE" x="101.6" y="-22.86" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2708,10 +2724,6 @@ Source: Samtec SSW.pdf</description>
 <pinref part="POTENTIOMETER" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="IC1" gate="G$1" pin="GND@3"/>
-</segment>
-<segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="157.48" y1="-63.5" x2="157.48" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -2732,6 +2744,14 @@ Source: Samtec SSW.pdf</description>
 <wire x1="172.72" y1="-73.66" x2="172.72" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="RELAYLEFT" gate="1" pin="6"/>
 <wire x1="172.72" y1="-71.12" x2="175.26" y2="-71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="X2" gate="-2" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="GND@1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -2792,13 +2812,20 @@ Source: Samtec SSW.pdf</description>
 <wire x1="162.56" y1="40.64" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P+3" gate="VCC" pin="VCC"/>
-<pinref part="IC1" gate="G$1" pin="+5V"/>
-</segment>
-<segment>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <pinref part="SV4" gate="1" pin="3"/>
 <wire x1="195.58" y1="27.94" x2="236.22" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-1" pin="1"/>
+<wire x1="248.92" y1="5.08" x2="248.92" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="-5.08" x2="243.84" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<wire x1="243.84" y1="-5.08" x2="243.84" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<pinref part="IC1" gate="G$1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$7" class="0">
