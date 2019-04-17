@@ -28,7 +28,8 @@ bool signal_switch = false;
 unsigned long signal_lost = 0;
 unsigned long read_pot = 0;
 float call_delay_float = 0.0000;
-int call_delay = 0;
+int call_delay = 5000;
+int call_delay_temp = 0;
 bool LIGHTS = true;
 bool HAPTIC = false;
 bool SOUND = false;
@@ -82,10 +83,16 @@ void loop() {
     value = 0;
   }
   //Serial.println(value);
-  read_pot = analogRead(pot);
+  float read_pot = analogRead(pot);
   Serial.println(read_pot);
-  call_delay_float = read_pot / 150;
-  call_delay = call_delay_float * 1000;
+  float call_delay_float = read_pot / 1023;
+  call_delay_temp = call_delay_float * 10000;
+  if (call_delay_temp){
+    call_delay = call_delay_temp;
+    Serial.print("Set Delay: ");
+    Serial.println(call_delay / 1000);
+  }
+  //call_delay = 5000;
   while (value) {
     check_buttons();
     if (counter) {
@@ -108,19 +115,24 @@ void loop() {
       signal_lost = 0;
       signal_switch = true;
       Serial.println("Call Placed");
-
-      delay(1000);
       digitalWrite(PLUG, LOW);
       break;
     }
     if (millis() - timer > call_delay / 5 * 4) {
       if (LIGHTS) {
+        colorUpdate(red, 5);
+        colorUpdate(red, 1);
+        colorUpdate(red, 2);
+        colorUpdate(red, 3);
         colorUpdate(red, 4);
       }
       vibe();
     }
     else if (millis() - timer > call_delay / 5 * 3) {
       if (LIGHTS) {
+        colorUpdate(red, 4);
+        colorUpdate(red, 1);
+        colorUpdate(red, 2);
         colorUpdate(red, 3);
       }
       vibe();
@@ -128,6 +140,8 @@ void loop() {
     }
     else if (millis() - timer > call_delay / 5 * 2) {
       if (LIGHTS) {
+        colorUpdate(red, 3);
+        colorUpdate(red, 1);
         colorUpdate(red, 2);
       }
       vibe();
@@ -136,12 +150,13 @@ void loop() {
     else if (millis() - timer > call_delay / 5 * 1) {
       if (LIGHTS) {
         colorUpdate(red, 1);
+        colorUpdate(red, 2);
       }
       vibe();
     }
     else if (millis() - timer > 10) {
       if (LIGHTS) {
-        colorUpdate(strip.Color(255, 0, 0), 0);
+        colorUpdate(red, 1);
       }
       vibe();
       //delay(100000);
@@ -191,20 +206,6 @@ void check_buttons() {
   else {
     HAPTIC = false;
     analogWrite(haptic_motor, 0);
-  }
-  switch_status = digitalRead(sound_pin);
-  if (switch_status) {
-    SOUND = true;
-  }
-  else {
-    SOUND = false;
-  }
-  switch_status = digitalRead(prox_pin);
-  if (switch_status) {
-    PROX = true;
-  }
-  else {
-    PROX = false;
   }
 }
 
